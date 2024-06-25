@@ -15,6 +15,9 @@ from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
+    """
+    BasicCache Class.
+    """
     def put(self, key, item):
         """
         Add an item to the cache.
