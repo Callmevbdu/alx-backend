@@ -19,6 +19,9 @@ from base_caching import BaseCaching
 
 
 class LIFOCache(BaseCaching):
+    """
+    LIFO Cache Class.
+    """
     def __init__(self):
         """
         Initialize the LIFO cache.
