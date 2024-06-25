@@ -20,6 +20,9 @@ from collections import OrderedDict
 
 
 class LRUCache(BaseCaching):
+    """
+    LRU Cache Class.
+    """
     def __init__(self):
         """
         Initialize the LRU cache.
