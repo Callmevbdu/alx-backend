@@ -1,17 +1,14 @@
 #!/usr/bin/env python3
-
 """
 Basic Flask app
 """
-
 from flask import Flask, render_template
-from collections.abc import MutableMapping
 
 app = Flask(__name__)
 
 
 @app.route('/', methods=["GET"], strict_slashes=False)
-def hello() -> str:
+def index():
     """
     Hello world
     """
