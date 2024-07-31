@@ -9,7 +9,7 @@ const queue = createQueue({name: 'push_notification_code'});
 
 const client = queue.create('push_notification_code', {
   phoneNumber: '123-456-7890',
-  message: 'Hello, world!',
+  message: 'This is the code to verify your account',
 });
 
 /**
